@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/ivopetiz/crypto-exchange-cli.svg?branch=master)](https://travis-ci.com/ivopetiz/crypto-exchange-cli)
 # crypto-exchange-cli
 
 ## CLI for Crypto Exchanges
