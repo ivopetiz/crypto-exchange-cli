@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4c2d8c4d869b499fa7aeb3e30e30cb7f)](https://app.codacy.com/app/ivopetiz/crypto-exchange-cli?utm_source=github.com&utm_medium=referral&utm_content=ivopetiz/crypto-exchange-cli&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/ivopetiz/crypto-exchange-cli.svg?branch=master)](https://travis-ci.com/ivopetiz/crypto-exchange-cli)
 # crypto-exchange-cli
 
