@@ -4,8 +4,6 @@ import sys
 import time
 
 from poloniex import Poloniex
-from datetime import datetime
-from termcolor import colored
 
 pl = Poloniex()
 
@@ -45,7 +43,7 @@ def get_btc_price():
 def get_indicator(d):
 	# not used yet.
 	if sideways:
-		return '\u219D' 
+		return '\u219D'
 	if sell:
 		return '\u2198'
 	if buy:
@@ -107,8 +105,6 @@ def main():
 	while(1):
 		try:
 			currencies = get_volumes()
-			if currencies == 1:
-				currencies = old_currencies
 			for currency in currencies:
 				if currency[1] > 200000:
 					a = [float(item['weightedAverage']) for item in pl.returnChartData(currency[0],300)]
@@ -122,15 +118,14 @@ def main():
 							val_list[4], val_list[5], val_list[6], val_list[7], val_list[8],
                     	    val_list[9], price_val, str(int(currency[1]/1000000)) + ' M')
 			old_currencies = currencies
-		except:
+		except Exception as e:
 			print "\033c"
 			print "Error getting data."
 
 		time.sleep(60 - stop)
-		
+
 		print "\033c"
 		print_head()
-
 
 if __name__=="__main__":
 	main()

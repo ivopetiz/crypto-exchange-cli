@@ -46,7 +46,7 @@ cli.py 10
 
 ## TODO
 
-- add mycoins option.
-- add Bittrex exchange.
-- add Cryptopia exchange.
-- change arg flags method.
+-   add mycoins option.
+-   add Bittrex exchange.
+-   add Cryptopia exchange.
+-   change arg flags method.
